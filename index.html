@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" id="theme-style">
+    <title>Online Gaming Relationships</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            background-color: #705046;
+            /* Dark maroon background */
+            overflow: auto;
+            /* Hide overflow to prevent scrollbars */
+        }
+
+        .trail {
+            z-index: -999;
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: rgba(157, 57, 14, 0.732);
+            /* Light blue color */
+            border-radius: 50%;
+            /* Circle shape */
+            pointer-events: none;
+            /* Ensure the trail doesn't interfere with mouse events */
+            transition: opacity 1s, width 1s, height 1s;
+            /* Apply transition for fading effect */
+        }
+    </style>
+</head>
+
+<body>
+
+    <script src="script.js"></script>
+
+    <button class="theme" onclick="toggleTheme()">
+        Light / Dark
+    </button>
+
+
+    <div class="wrapper">
+        <div class="container">
+            <header>
+                <h1>Online Gaming Relationships</h1>
+                <div class="line"></div>
+                <p>In the world of online gaming, friendships can be both thrilling and intricate, offering connections
+                    that transcend physical boundaries. However, behind the screen, communication can sometimes lead to
+                    misunderstandings, trust can be hard to establish, and not everyone is who they claim to be.</p>
+                <img class="gamer" src="/pics/gamerrr.png" alt="a gamer layed back in chair">
+            </header>
+
+            <main>
+                <div class="line1"></div>
+                <a href="what.html" class="box">
+                    <h2>Read about Online Gaming Relationships</h2>
+                    <img class="icon" src="/pics/icon1.svg" alt="document icon">
+                </a>
+                <div class="line2"></div>
+                <a href="prevent.html" class="box">
+                    <h2>How to prevent it</h2>
+                    <img class="icon" src="/pics/icon11.svg" alt="question mark icon">
+                </a>
+                <div class="line2"></div>
+                <a href="podcast.html" class="box">
+                    <h2>Listen to the podcast</h2>
+                    <img class="icon" src="/pics/icon33.svg" alt="podcast icon">
+                </a>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>
