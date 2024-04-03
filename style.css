@@ -70,9 +70,8 @@
     }
 
     .box {
-        width: 200px;
-        height: 200px;
-        background-color: rgb(255, 0, 0);
+        padding: 6rem;
+        background-color: rgb(186, 173, 206);
         margin-top: 20px;
         margin-left: 50px;
         border-radius: 10px;
@@ -90,5 +89,6 @@
     .boxContainer {
         position: absolute;
         margin-top: 200px;
-        margin-left: 50px;
-    }
+        width: 100%;
+        text-align: center;
+        }
