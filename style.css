@@ -4,7 +4,7 @@
     }
 
     body {
-        background-color: rgb(199, 214, 221);
+        background-color: rgb(175, 175, 175);
         text-align: center;
         align-content: center;
     }
@@ -76,72 +76,63 @@
         color: rgb(230, 221, 238);
     }
 
-    .box {
-        max-width: 500px;
-        max-height: 333px;
-        min-height: 200px;
-        background-color: #ecf390a7;
-        border-radius: 10px;
+    .link {
+        display: inline-block;
+        padding: 10px 20px;
+        height: 130px;
+        min-width: 25%;
+        border: 2px solid #000;
         text-decoration: none;
-        font-size: 4rem;
-        font-weight: 650;
-        cursor: pointer;
-        transition: 450ms;
-        color: rgb(52, 52, 52);
+        color: #000;
+        border-radius: 5px;
+        background-color: #f0f0f0;
     }
 
-    .box2 {
-        max-width: 500px;
-        max-height: 333px;
-        min-height: 200px;
-        background-color: #A4BEF1;
-        border-radius: 10px;
+    .link1 {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #000;
         text-decoration: none;
-        font-size: 4rem;
-        font-weight: 650;
-        cursor: pointer;
-        transition: 450ms;
+        color: #000;
+        border-radius: 5px;
+        background-color: #f0f0f0;
     }
 
-    .box3 {
-        max-width: 500px;
-        min-width: 200px;
-        max-height: 333px;
-        min-height: 200px;
-        background-color: #DCB5FB;
-        border-radius: 10px;
+    .link2 {
+        display: inline-block;
+        padding: 10px 20px;
+        border: 2px solid #000;
         text-decoration: none;
-        font-size: 4rem;
-        font-weight: 650;
-        cursor: pointer;
-        transition: 450ms;
+        color: #000;
+        border-radius: 5px;
+        background-color: #f0f0f0;
     }
 
-    .box:hover {
+    .link:hover {
         background-color: #ecf390;
         transition: 250ms;
         color: rgb(0, 0, 0);
     }
-    .box2:hover {
+    .link2:hover {
         background-color: #A4BEF1;
         transition: 250ms;
         color: rgb(217, 204, 225);
     }
-    .box3:hover {
+    .link3:hover {
         background-color: #DCB5FB;
         transition: 250ms;
         color: rgb(217, 204, 225);
     }
 
     .boxContainer {
-        display: grid;
+        
         grid-template-columns: 1fr 1fr 1fr;
         gap: 12px;
         position: absolute;
         left: 50%; /* Center horizontally */
         transform: translateX(-50%); /* Adjust for the element's own width */
         margin-top: 250px;
-        width: 95%;
+        width: 80%;
         text-align: center;
         align-items: center; /* Center items vertically */
     }
